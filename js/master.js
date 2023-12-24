@@ -126,49 +126,6 @@ function randomizeImgs(){
 randomizeImgs()
 // end landing
 
-//start Hidden Gems
-//switch img
-let golfImg = document.querySelector(".progress1");
-let golfArray =["golf1.jpg" ,"golf11.jpg"];
-
-function imgsgem1(){
-
-setInterval(() => {
-
-    let randomGem = Math.floor(Math.random() * golfArray.length);
-    golfImg.style.backgroundImage = 'url("imgs/'+golfArray[randomGem]+'")';
-
-}, 1000);
-}
-imgsgem1()
-
-let abazaImg = document.querySelector(".progress2");
-let abazaArray =["gem2.png" ,"gem22.jpg"];
-
-function imgsgem2(){
-
-setInterval(() => {
-
-    let randomAbaza = Math.floor(Math.random() * abazaArray.length);
-    abazaImg.style.backgroundImage = 'url("imgs/'+abazaArray[randomAbaza]+'")';
-}, 1000);
-}
-imgsgem2()
-
-let jazImg = document.querySelector(".progress3");
-let jazArray =["jaz3.jpg" ,"jaz33.jpg"];
-
-function imgsgem3(){
-
-setInterval(() => {
-
-    let randomJaz = Math.floor(Math.random() * jazArray.length);
-    jazImg.style.backgroundImage = 'url("imgs/'+jazArray[randomJaz]+'")';
-}, 1000);
-}
-imgsgem3()
-//end Hidden Gems
-
 //start gallery
 //create popup
 let ourGallery = document.querySelectorAll(".gallery img");

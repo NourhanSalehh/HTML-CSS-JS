@@ -337,73 +337,16 @@ opacity: 1;
 }
 @media (max-width : 575px){
     .about-us .image-box img{
-        width: 300px;
+        width: 250px;
     }
 }
 /* end about us */
-/* start Hidden Gems */
-.Hidden-Gems{
-    padding-top:50px;
-    padding-bottom:50px;
-    background-color: #eee;
-}
-.Hidden-Gems h2{
-    font-weight: bold;
-    font-size: 30px;
-    color: var(--main-color);
-    margin: 0 0 50px;
-    text-align: center;
-}
-.Hidden-Gems p{
-    color: #767676;
-    text-align: center;
-    margin-top: auto;
-}
-.Hidden-Gems .HG-box{
-    background-color: #fff;
-    display: inline-flex;
-    padding: 15px;
-    margin-bottom: 15px;
-    width: auto;
-    inline-size: -webkit-fill-available;
-}
-.Hidden-Gems .HG-box .name{
-    font-weight: bold;
-    text-align: center;
-    width: 220px;
-    line-height: 30px;
-    margin :11px;
-    cursor: pointer;
-    display: inline;
-}
-.Hidden-Gems .HG-box .progress1,
-.Hidden-Gems .HG-box .progress2,
-.Hidden-Gems .HG-box .progress3{
-    width: 100%;
-    border-radius: 6px;
-    background-repeat: no-repeat;
-    text-align: center;
-}
-.Hidden-Gems .HG-box .progress1::after,
-.Hidden-Gems .HG-box .progress2::after,
-.Hidden-Gems .HG-box .progress3::after{
-    display: inline-block;
-}
-.Hidden-Gems .gem  .progress1{
-    background-image: url(../imgs/golf1.jpg);
-}
-.Hidden-Gems .gem .progress2{
-    background-image: url(../imgs/gem2.png);
-}
-.Hidden-Gems .gem .progress3{
-    background-image: url(../imgs/jaz3.jpg);
-}
-/* end HiddenGems  */
 /* start gallery  */
 .gallery{
     padding-top: 50px;
     padding-bottom: 50px;
     text-align: center;
+    background-color: #f6f6f6;
 }
 .gallery h2{
     font-weight: bold;
@@ -471,7 +414,6 @@ opacity: 1;
 .timeline{
     padding-top:50px;
     padding-bottom:50px;
-    background-color: #f6f6f6;
 }
 .timeline h2{
     color: #ebeced;
@@ -518,6 +460,7 @@ opacity: 1;
     width: calc(50% -25px);
     position: relative;
     text-align: center;
+    border: 1px solid var(--main-color);
 }
 .timeline .timeline-content .content{
     background-color: #fff;
